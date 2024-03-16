@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Despega en tu Carrera</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<header>
+    <button id="formBtn">Aplica!</button>
+    <h3>1M COP POR APLICAR Y QUEDARTE UNOS MESES</h3>
+    <button id="faqBtn">FAQ</button>
+</header>
+<main>
+<section id="intro-section">
+    <canvas id="canvas3d"></canvas>
+    <div>
+        <h1>Despega en tu Carrera: ¡Atrévete a Vivir la Experiencia!</h1>
+    </div>
+</section>
+  <section
+        id="faq">
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        <div class="faq-item">
+          <div class="faq-toggle">
+            ¿Listo para el Desafío? <span class="arrow";</span>
+          </div>
+          <div class="faq-content">
+            <p>Si dominas el inglés al menos en nivel B2 (hey, B2+ o C1 sería genial), vives en Medellín o Bogotá, y no te importa si trabajas en pijama desde casa o prefieres la ofi, esto podría ser lo tuyo. Piénsalo, ¿te ves en este rol? ¿Listo para ganar algo extra mientras vives una nueva aventura? Si tu inglés te tiene dudando, echa un vistazo a este <a href="https://www.efset.org/" target="_blank">test</a> gratuito  para ver cómo te sientes. ¡Anímate a explorar!</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-toggle">
+            Así Funciona la Magia de Aplicar:
+            <span class="arrow";</span>
+          </div>
+          <div class="faq-content">
+            <p>Solo necesitas dejarnos tus datos en un form. En las próximas 72 horas hábiles, prepárate para una llamada donde charlaremos sobre tu inglés y tú. Hablaremos de tus experiencias, si estás estudiando, tus planes de viaje, y claro, tus sueños. Aquí la clave es ser tú mismo.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-toggle">
+            Tu Escena: <span class="arrow";</span>
+          </div>
+          <div class="faq-content">
+            <p>¿Te imaginas atendiendo clientes en inglés, ya sea al teléfono, por chat o cualquier plataforma que se nos ocurra? Eso es lo que harás en este gig de BPO. Simple y directo.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-toggle">
+            El Tema Dinero y Tiempo: <span class="arrow";</span>
+          </div>
+          <div class="faq-content">
+            <p>Arrancarías con un básico de 2.2M COP más bonos, dependiendo de la campaña. Si te quedas 3 meses o más, hay un extra de 1M COP esperándote. Los horarios, aunque flex, rondan las 40-42 horas a la semana con dos días para recargar energías. Si tienes preguntas o algo te ronda la cabeza, habla con tu reclutador, estamos para ayudarte.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-toggle">
+            Lo que Viene Después de Decir "Sí":
+            <span class="arrow";</span>
+          </div>
+          <div class="faq-content">
+            <p>Dependiendo de tu vibe y la cuenta, te esperan alrededor de 5 semanas de training, un nesting para ir calentando motores interactuando con clientes, y luego, el gran salto a tu día a día. Desde el primer día, tu esfuerzo se traduce en salario.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Sección del formulario aquí -->
+      <section id="form">
+        <h2>Don't miss the Magic</h2>
+<form id="contact-form">
+    <div class="input-grid">
+        <input type="text" id="fullName" name="fullName" class="input-field" placeholder="Full Name" required>
+        <input type="email" id="email" name="email" class="input-field" placeholder="E-Mail" required>
+        <input type="tel" id="contactNumber" name="contactNumber" class="input-field" placeholder="Contact Number" required>
+    </div>
+    <div class="input-grid">
+        <input type="tel" id="altContactNumber" name="altContactNumber" class="input-field" placeholder="Alternative Contact Number">
+        <select id="city" name="city" class="input-field" required>
+            <option value="">Select City</option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Medellín">Medellín</option>
+        </select>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
